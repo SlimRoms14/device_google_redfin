@@ -27,3 +27,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 14 UP1A.231105.001 10817346 release-keys"
 
 BUILD_FINGERPRINT := google/redfin/redfin:14/UP1A.231105.001/10817346:user/release-keys
+
+$(call inherit-product, vendor/google/redfin/redfin-vendor.mk)
